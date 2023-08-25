@@ -1,0 +1,54 @@
+
+
+index.html
+
+	Create and define a new HTML pagecontent section
+
+	Include title, body and main section which contains
+	labels, inputs and a button for login
+
+	Include the javascript script enabler
+	
+
+styles.css
+
+	Where the style and formatting occurs for the front page.
+
+	Sets display and format (allows for different types of media readers?)
+
+
+
+script.jss
+
+
+	When the page content is loaded
+
+    		Get the username input element
+
+    		Get the password input element
+
+    		Get the login button element
+
+    		Add a click event listener to the login button
+
+        		Get the entered username
+
+        		Get the entered password
+
+        		If credentials are valid
+
+            			Log an authentication success message (Happy Bob)
+
+        		Else
+
+            			Log an invalid credentials message (Angry Yuki)
+
+
+
+	Function to check if credentials are valid
+
+    		Perform database checks - Check at this point if admin or user
+
+    		Assume valid if both fields are not empty
+
+

@@ -1,0 +1,31 @@
+Define a Svelte component named SvelteLogin
+
+    Declare two variables: username and password
+
+    When the user clicks the login button
+
+        Get the values of username and password
+
+        If credentials are valid
+
+            Log an authentication success message (Happy Bob)
+
+        Else
+
+            Log an invalid credentials message (Angry Yuki)
+
+    Function to check if credentials are valid
+
+        Perform database checks - Check at this point if admin or user
+
+        Assume valid if both fields are not empty
+
+Display the main content
+
+    Display a heading "Login Page"
+
+    Create an input for username with data binding to username variable
+
+    Create an input for password with data binding to password variable
+
+    Create a button with a click event listener to trigger login
